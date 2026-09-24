@@ -1,7 +1,7 @@
 interface:
-  display_name: "Travel Ticket 旅行票根"
-  short_description: "Create travel tickets with photo-adaptive background colors"
+  display_name: "Travel Ticket 旅行票根（五种样式）"
+  short_description: "Turn photos into vintage keepsake posters: ticket stub, boarding pass, postcard, instant film or film frame"
   icon_large: "./assets/preview.png"
-  default_prompt: "Use $artifact-template-travel-ticket to create a travel-ticket image and derive a muted, harmonious fabric background color from the source photo."
+  default_prompt: "Use $artifact-template-travel-ticket to turn this photo into a keepsake poster. Use the travel-ticket layout unless I name another style (boarding pass, postcard, instant film, film frame), and derive a muted, harmonious fabric background color from the source photo."
 policy:
   allow_implicit_invocation: true

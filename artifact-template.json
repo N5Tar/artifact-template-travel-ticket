@@ -3,5 +3,53 @@
   "kind": "image",
   "galleryKind": "imagegen",
   "reference": "assets/reference.png",
-  "preview": "assets/preview.png"
+  "preview": "assets/preview.png",
+  "defaultStyle": "travel-ticket",
+  "variants": [
+    {
+      "id": "travel-ticket",
+      "name": "Travel Ticket 旅行票根",
+      "aliases": ["ticket", "ticket stub", "票根", "票券"],
+      "reference": "assets/reference.png",
+      "preview": "assets/preview.png",
+      "canvas": "3:4",
+      "orientation": "vertical"
+    },
+    {
+      "id": "boarding-pass",
+      "name": "Boarding Pass 登机牌",
+      "aliases": ["boarding pass", "登机牌", "flight card"],
+      "reference": "assets/styles/boarding-pass.png",
+      "preview": "assets/styles/boarding-pass.png",
+      "canvas": "3:4",
+      "orientation": "vertical"
+    },
+    {
+      "id": "postcard",
+      "name": "Vintage Postcard 复古明信片",
+      "aliases": ["postcard", "post card", "明信片"],
+      "reference": "assets/styles/postcard.png",
+      "preview": "assets/styles/postcard.png",
+      "canvas": "3:4",
+      "orientation": "vertical"
+    },
+    {
+      "id": "instant-film",
+      "name": "Instant Film 拍立得",
+      "aliases": ["instant film", "polaroid", "拍立得", "即时成像"],
+      "reference": "assets/styles/instant-film.png",
+      "preview": "assets/styles/instant-film.png",
+      "canvas": "3:4",
+      "orientation": "vertical"
+    },
+    {
+      "id": "film-frame",
+      "name": "Film Frame 胶片帧",
+      "aliases": ["film frame", "negative", "胶片", "负片", "35mm"],
+      "reference": "assets/styles/film-frame.png",
+      "preview": "assets/styles/film-frame.png",
+      "canvas": "3:2",
+      "orientation": "horizontal"
+    }
+  ]
 }
